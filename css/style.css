@@ -1,0 +1,85 @@
+body{
+	text-align: center;
+}
+
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
+	margin: 0px;
+}
+
+h1{
+	font-family: RALEWAY;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 400;	
+	font-size: 45px;
+	margin: 0px;
+}
+
+nav{
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	padding: 20px 0px;
+}
+
+a{
+	font-family: RALEWAY;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size:18px;
+	padding: 0px 20px;
+}
+
+main{
+	margin: 35px auto;
+	width: 850px;
+}
+
+h2{
+	font-family: RALEWAY;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;	
+	font-size: 20px;
+}
+
+p {
+	font-family: "DROID SERIF";
+	line-height: 26px;	
+	font-size: 18px;
+}
+
+img {
+	padding:40px 8px 0px 8px;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 0 20PX;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	font-weight: 500;
+}
+
+.copyright {
+	font-family: RALEWAY;
+	float: left;
+}
+
+.message {
+	font-family: RALEWAY;
+	float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
