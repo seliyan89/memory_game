@@ -83,3 +83,66 @@ clear: both;
 height: 0;
 font-size: 0;
 }
+
+.scoreBoard{
+	height: 40px;
+	width:150px;
+	background:black;
+	margin:0 auto;
+	color:white;
+	text-align: center;
+	font-size: 15px;
+	line-height: 40px;
+	font-weight: bold;
+	font-style: italic;
+	display: inline-block;
+}
+
+#scoreUnderline{
+	text-decoration: underline;
+}
+
+.attemptBoard{
+	height: 40px;
+	width:150px;
+	background:black;
+	margin:0 auto;
+	color:white;
+	text-align: center;
+	font-size: 15px;
+	line-height: 40px;
+	font-weight: bold;
+	font-style: italic;
+	display: inline-block;
+}
+
+#attemptUnderline{
+	text-decoration: underline;
+}
+
+.resetButtonClass{
+  padding: 5px 5px;
+  margin: 0px 0px 25px 0px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.resetButtonClass:hover {background-color: #3e8e41}
+
+.resetButtonClass:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+}
